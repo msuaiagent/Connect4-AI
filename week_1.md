@@ -59,8 +59,6 @@ Instead, you'll build the project step by step throughout the seven-week guide.
 4. Installing Python
 5. Installing Git
 6. Creating a GitHub Account
-7. Cloning the Repository
-8. Understanding the Starter Project
 9. Opening the Project
 10. Python Virtual Environments
 11. Installing Dependencies
@@ -278,44 +276,6 @@ GitHub will be used throughout this project to store your code and track your pr
 
 ---
 
-# Cloning the Repository
-
-Your instructor will provide the GitHub repository for the project.
-
-Open a terminal and navigate to the location where you want to store the project.
-
-For example:
-
-```bash
-cd Desktop
-```
-
-Clone the repository:
-
-```bash
-git clone <repository-url>
-```
-
-Then move into the repository:
-
-```bash
-cd <repository-name>
-```
-
-You can verify that the repository was downloaded by listing its files.
-
-### Windows
-
-```cmd
-dir
-```
-
-### macOS / Linux
-
-```bash
-ls
-```
-
 
 # How the Project Will Grow
 
@@ -354,49 +314,6 @@ We'll introduce each part when you need it.
 
 ---
 
-# Opening the Project
-
-Move into the project folder:
-
-```bash
-cd <repository-name>
-```
-
-Then open it in Visual Studio Code:
-
-```bash
-code .
-```
-
-You should now see the project files in the VS Code Explorer.
-
-Make sure you can locate:
-
-```text
-agents/
-connect4/
-requirements.txt
-run.py
-```
-
-Inside `agents/`, you should also see:
-
-```text
-__init__.py
-random_agent.py
-```
-
----
-
-# Python Virtual Environments
-
-A Python virtual environment creates an isolated workspace for your project.
-
-This means the packages used by this project can be installed separately from other Python projects on your computer.
-
-Virtual environments are commonly used in Python development.
-
----
 
 ## Create a Virtual Environment
 
@@ -614,9 +531,7 @@ Before moving on to Week 2, make sure you've completed all of the following:
 - Installed Python
 - Installed Git
 - Created a GitHub account
-- Cloned the project repository
 - Opened the project in Visual Studio Code
-- Confirmed the starter project structure
 - Created a Python virtual environment
 - Activated the virtual environment
 - Installed the project dependencies
@@ -695,7 +610,7 @@ This week you:
 - Installed Python, Git, and Visual Studio Code.
 - Learned basic terminal commands.
 - Created a GitHub account.
-- Learned about the starter project structure.
+- Learned about the project structure.
 - Created and activated a Python virtual environment.
 - Verified that Pygame is installed.
 - Learned the basic Git workflow.
