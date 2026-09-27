@@ -736,30 +736,11 @@ Restart your terminal after installation.
 
 ---
 
-## Virtual Environment Won't Activate
-
-On Windows, PowerShell may prevent scripts from running.
-
-If you receive a permissions error, you may need to run:
-
-```powershell
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-Then try activating the environment again:
-
-```powershell
-.venv\Scripts\activate
-```
-
----
-
-
 # Week 1 Summary
 
 Congratulations! 🎉
 
-You've completed the first step of the MSU AI Club Guided AI Project.
+You've completed the first step of the MSU AI Club Guided Connect4 AI Project.
 
 This week you:
 
