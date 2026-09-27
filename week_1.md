@@ -661,20 +661,20 @@ The exact characters will be different for your repository.
 
 Before moving on to Week 2, make sure you've completed all of the following:
 
-Installed Visual Studio Code
-Installed Python
-Installed Git
-Created a GitHub account
-Cloned the project repository
-Opened the project in Visual Studio Code
-Confirmed the starter project structure
-Created a Python virtual environment
-Activated the virtual environment
-Installed the project dependencies
-Verified that Pygame is installed
-Configured Git
-Made your first Git commit
-Pushed your changes to GitHub
+- Installed Visual Studio Code
+- Installed Python
+- Installed Git
+- Created a GitHub account
+- Cloned the project repository
+- Opened the project in Visual Studio Code
+- Confirmed the starter project structure
+- Created a Python virtual environment
+- Activated the virtual environment
+- Installed the project dependencies
+- Verified that Pygame is installed
+- Configured Git
+- Made your first Git commit
+- Pushed your changes to GitHub
 
 ---
 
