@@ -29,9 +29,7 @@ By the end of this week, you should be able to:
 - Install Git.
 - Navigate your computer using the terminal.
 - Create a GitHub account.
-- Clone a GitHub repository.
 - Create and activate a Python virtual environment.
-- Install project dependencies.
 - Verify that your development environment is working.
 - Use the basic Git workflow.
 
@@ -318,51 +316,6 @@ dir
 ls
 ```
 
----
-
-# Understanding the Starter Project
-
-At the beginning of the project, you will receive a small starter project.
-
-It intentionally does **not** contain the finished game.
-
-Your starting structure should look similar to:
-
-```text
-starter_code/
-│
-├── agents/
-│   ├── __init__.py
-│   └── random_agent.py
-│
-├── connect4/
-│   └── __init__.py
-│
-├── requirements.txt
-└── run.py
-```
-
-Don't worry if this looks incomplete.
-
-That's intentional.
-
-Throughout the project, you'll create the missing files yourself.
-
----
-
-## The Random Agent
-
-The starter project includes a simple `RandomAgent`.
-
-This is a basic testing opponent that chooses from the legal moves available to it.
-
-You'll use it later to test your game engine and graphical interface.
-
-You will **not** build your own AI yet.
-
-Your own AI will be created in Week 5.
-
----
 
 # How the Project Will Grow
 
@@ -547,12 +500,6 @@ For example:
 
 # Important: Don't Expect the Game to Run Yet
 
-At the beginning of this project, the game engine has not been built yet.
-
-That's intentional.
-
-You should **not** expect a complete Connect 4 game window at the end of Week 1.
-
 Over the next few weeks, you'll build:
 
 ```text
@@ -663,20 +610,20 @@ The exact characters will be different for your repository.
 
 Before moving on to Week 2, make sure you've completed all of the following:
 
-- [ ] Installed Visual Studio Code
-- [ ] Installed Python
-- [ ] Installed Git
-- [ ] Created a GitHub account
-- [ ] Cloned the project repository
-- [ ] Opened the project in Visual Studio Code
-- [ ] Confirmed the starter project structure
-- [ ] Created a Python virtual environment
-- [ ] Activated the virtual environment
-- [ ] Installed the project dependencies
-- [ ] Verified that Pygame is installed
-- [ ] Configured Git
-- [ ] Made your first Git commit
-- [ ] Pushed your changes to GitHub
+- Installed Visual Studio Code
+- Installed Python
+- Installed Git
+- Created a GitHub account
+- Cloned the project repository
+- Opened the project in Visual Studio Code
+- Confirmed the starter project structure
+- Created a Python virtual environment
+- Activated the virtual environment
+- Installed the project dependencies
+- Verified that Pygame is installed
+- Configured Git
+- Made your first Git commit
+- Pushed your changes to GitHub
 
 ---
 
@@ -748,10 +695,8 @@ This week you:
 - Installed Python, Git, and Visual Studio Code.
 - Learned basic terminal commands.
 - Created a GitHub account.
-- Cloned the project repository.
 - Learned about the starter project structure.
 - Created and activated a Python virtual environment.
-- Installed the required dependencies.
 - Verified that Pygame is installed.
 - Learned the basic Git workflow.
 - Created and pushed your first commit.
