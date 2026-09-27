@@ -1,6 +1,6 @@
 # Week 1: Development Environment & Project Setup
 
-Welcome to the **MSU AI Club Guided AI Project!**
+Welcome to the **Connect4 AI Club Guided Project!**
 
 This project focuses on **classical Artificial Intelligence**, where an agent analyses the current game state and uses programmed strategies to make decisions.
 
@@ -29,7 +29,9 @@ By the end of this week, you should be able to:
 - Install Git.
 - Navigate your computer using the terminal.
 - Create a GitHub account.
+- Clone a GitHub repository.
 - Create and activate a Python virtual environment.
+- Install project dependencies.
 - Verify that your development environment is working.
 - Use the basic Git workflow.
 
@@ -59,6 +61,8 @@ Instead, you'll build the project step by step throughout the seven-week guide.
 4. Installing Python
 5. Installing Git
 6. Creating a GitHub Account
+7. Cloning the Repository
+8. Understanding the Starter Project
 9. Opening the Project
 10. Python Virtual Environments
 11. Installing Dependencies
@@ -276,6 +280,87 @@ GitHub will be used throughout this project to store your code and track your pr
 
 ---
 
+# Cloning the Repository
+
+Open a terminal and navigate to the location where you want to store the project.
+
+For example:
+
+```bash
+cd Desktop
+```
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Then move into the repository:
+
+```bash
+cd <repository-name>
+```
+
+You can verify that the repository was downloaded by listing its files.
+
+### Windows
+
+```cmd
+dir
+```
+
+### macOS / Linux
+
+```bash
+ls
+```
+
+---
+
+# Understanding the Starter Project
+
+At the beginning of the project, you will receive a small starter project.
+
+It intentionally does **not** contain the finished game.
+
+Your starting structure should look similar to:
+
+```text
+starter_code/
+│
+├── agents/
+│   ├── __init__.py
+│   └── random_agent.py
+│
+├── connect4/
+│   └── __init__.py
+│
+├── requirements.txt
+└── run.py
+```
+
+Don't worry if this looks incomplete.
+
+That's intentional.
+
+Throughout the project, you'll create the missing files yourself.
+
+---
+
+## The Random Agent
+
+The starter project includes a simple `RandomAgent`.
+
+This is a basic testing opponent that chooses from the legal moves available to it.
+
+You'll use it later to test your game engine and graphical interface.
+
+You will **not** build your own AI yet.
+
+Your own AI will be created in Week 5.
+
+---
 
 # How the Project Will Grow
 
@@ -314,6 +399,49 @@ We'll introduce each part when you need it.
 
 ---
 
+# Opening the Project
+
+Move into the project folder:
+
+```bash
+cd <repository-name>
+```
+
+Then open it in Visual Studio Code:
+
+```bash
+code .
+```
+
+You should now see the project files in the VS Code Explorer.
+
+Make sure you can locate:
+
+```text
+agents/
+connect4/
+requirements.txt
+run.py
+```
+
+Inside `agents/`, you should also see:
+
+```text
+__init__.py
+random_agent.py
+```
+
+---
+
+# Python Virtual Environments
+
+A Python virtual environment creates an isolated workspace for your project.
+
+This means the packages used by this project can be installed separately from other Python projects on your computer.
+
+Virtual environments are commonly used in Python development.
+
+---
 
 ## Create a Virtual Environment
 
@@ -416,6 +544,12 @@ For example:
 ---
 
 # Important: Don't Expect the Game to Run Yet
+
+At the beginning of this project, the game engine has not been built yet.
+
+That's intentional.
+
+You should **not** expect a complete Connect 4 game window at the end of Week 1.
 
 Over the next few weeks, you'll build:
 
@@ -527,18 +661,20 @@ The exact characters will be different for your repository.
 
 Before moving on to Week 2, make sure you've completed all of the following:
 
-- Installed Visual Studio Code
-- Installed Python
-- Installed Git
-- Created a GitHub account
-- Opened the project in Visual Studio Code
-- Created a Python virtual environment
-- Activated the virtual environment
-- Installed the project dependencies
-- Verified that Pygame is installed
-- Configured Git
-- Made your first Git commit
-- Pushed your changes to GitHub
+Installed Visual Studio Code
+Installed Python
+Installed Git
+Created a GitHub account
+Cloned the project repository
+Opened the project in Visual Studio Code
+Confirmed the starter project structure
+Created a Python virtual environment
+Activated the virtual environment
+Installed the project dependencies
+Verified that Pygame is installed
+Configured Git
+Made your first Git commit
+Pushed your changes to GitHub
 
 ---
 
@@ -598,11 +734,38 @@ Restart your terminal after installation.
 
 ---
 
+
+## Pygame Isn't Installed
+
+First make sure your virtual environment is active.
+
+You should see:
+
+```text
+(.venv)
+```
+
+at the beginning of your terminal.
+
+Then run:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+After installation, verify Pygame:
+
+```bash
+python -c "import pygame; print(pygame.version.ver)"
+```
+
+---
+
 # Week 1 Summary
 
 Congratulations! 🎉
 
-You've completed the first step of the MSU AI Club Guided Connect4 AI Project.
+You've completed the first step of the Connect4 AI Club Guided Project.
 
 This week you:
 
@@ -610,8 +773,10 @@ This week you:
 - Installed Python, Git, and Visual Studio Code.
 - Learned basic terminal commands.
 - Created a GitHub account.
-- Learned about the project structure.
+- Cloned the project repository.
+- Learned about the starter project structure.
 - Created and activated a Python virtual environment.
+- Installed the required dependencies.
 - Verified that Pygame is installed.
 - Learned the basic Git workflow.
 - Created and pushed your first commit.
